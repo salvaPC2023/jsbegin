@@ -1,11 +1,16 @@
 function generarfizzbuzz(n) {
-    let mensaje = "";
-    if(n % 3 == 0){
-        mensaje = "fizz";
+   
+let mensaje = "";
+if(n % 3==0){
+    mensaje = "fizz";
+    
+}else {
+    if(n % 5==0){
+        mensaje = "Buzz";
     }else{
-        mensaje = n + "";
+        mensaje = n +"";
+    }
     }
     return mensaje;
-   //return n + "" ;
-  }
+}
   export default generarfizzbuzz;
