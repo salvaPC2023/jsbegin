@@ -19,4 +19,10 @@ describe("FizzBuzz", () => {
   it("Deberia mostrar la palabra Buzz para los multiplos del numero 10", () => {
     expect(generarFizzBuzz(10)).toEqual("Buzz");
   });
+  it("Deberia mostrar la palabra Buzz para los multiplos del numero 3 y 5", () => {
+    expect(generarFizzBuzz(15)).toEqual("FizzBuzz");
+  });
+  it("Deberia mostrar la palabra Buzz para los multiplos del numero 10", () => {
+    expect(generarFizzBuzz(30)).toEqual("FizzBuzz");
+  });
 });
